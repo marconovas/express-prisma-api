@@ -78,12 +78,11 @@ export async function editTask (req, res) {
 
 export async function deleteTask (req, res) {
     const id = Number(req.params.id);
+    const userId = req.user.userId;
 
     if(!id){
         return res.status(400).json({ message: "Id de tarea no especificado." });
     }
-
-    const userId = req.user.userId;
 
     const status = await taskService.remove(id, userId);
 
