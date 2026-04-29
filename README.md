@@ -75,8 +75,6 @@ npm run dev
 
 ## 📈 Future Improvements
 
-* JWT authentication
-* Input validation (Zod / Joi)
 * Pagination
 * Role-based access
 * Testing
