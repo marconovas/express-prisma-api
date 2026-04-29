@@ -9,6 +9,8 @@ Backend REST API for managing users and tasks, built with Node.js, Express and P
 * Relational database (User → Tasks)
 * Clean architecture (routes, controllers, services)
 * Prisma ORM integration
+* JWT authentication
+* Input validation (express-validator)
 
 ## 🛠️ Tech Stack
 
