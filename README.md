@@ -65,7 +65,7 @@ npm run dev
 
 ---
 
-## 🧠 Concepts Practiced
+## 🧠 Concepts Used
 
 * REST API design
 * Database relationships (1:N)
